@@ -12,16 +12,16 @@ public class Vaso {
     float altura;
    String material;
    String color;
-
+    
     public Vaso(float altura, String material, String color) {
         this.altura = altura;
         this.material = material;
         this.color = color;
     }
-
+   
     public float getAltura() {
         return altura;
-    }
+}
 
     public String getMaterial() {
         return material;

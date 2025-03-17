@@ -4,6 +4,8 @@
  */
 package test;
 
+import core.Person;
+
 /**
  *
  * @author usuario
@@ -15,7 +17,8 @@ public class Test {
      */
     public static void main(String[] args) {
         System.out.println("hola git");
-        
+        Person person= new Person (1299292,"jovani basquez",25);
+        System.out.println(person);
         
     }
     
